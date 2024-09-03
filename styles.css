@@ -1,0 +1,36 @@
+#container{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#rollBtn{
+    background-color: #99cfff;
+    border-radius: 15px;
+    border: none;
+    transition: 0.3s;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#rollBtn:hover{
+    background-color: #5aaef7;
+}
+
+#rollBtn:active{
+    background-color: #bedefa;
+}
+
+#userInput{
+    text-align: center;
+    margin: 15px;
+}
+
+#diceResult{
+    margin: 25px;
+}
+#diceImages img{
+    width: 150px;
+    margin: 5px;
+}
